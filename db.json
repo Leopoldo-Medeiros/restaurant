@@ -1,5 +1,22 @@
 {
-  "user":[
-    { "name": "Leopoldo", "email": "leopoldo@test.com", "password": "abc@123" }
+  "users": [
+    {
+      "name": "Leopoldo Medeiros",
+      "email": "leopoldo@test.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "email": "luci@test.com",
+      "password": "12345",
+      "name": "Luciana Machado",
+      "id": 2
+    },
+    {
+      "email": "pedro@test.com",
+      "password": "12345",
+      "name": "Pedro Medeiros",
+      "id": 3
+    }
   ]
 }
