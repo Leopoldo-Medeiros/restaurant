@@ -37,7 +37,7 @@ export default {
             if(result.status==201)
             {
                 alert("sign-up done");
-                localStorage.getItem("user-info",JSON.stringify(result.data))
+                localStorage.setItem("user-info",JSON.stringify(navigator.userAgent))
             }
         }
     }
